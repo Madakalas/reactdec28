@@ -1,3 +1,4 @@
+import React from "react"
 import CompA from "./CompA"
 let CompB = ()=>{
     let id = 101

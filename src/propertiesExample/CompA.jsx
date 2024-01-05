@@ -1,3 +1,4 @@
+import React from "react"
 function CompA(props){
         return<div>
             <h3> Compenent A</h3>
