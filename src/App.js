@@ -10,12 +10,14 @@ import Handle from './State/Handle'
 import Handle2 from "./State/Handle2"
 import Employee from "./Constructor/Employee"
 import Employeedata from "./Constructor/Employeedata"
+import Singlepage from "./Routing/Singlepage"
+import Routing from "./Routing/Routing"
 
 
 function siddu(){
 
         return <div>
-            <Employeedata/>
+            <Routing/>
             </div>
 }
 export default siddu
