@@ -12,12 +12,14 @@ import Employee from "./Constructor/Employee"
 import Employeedata from "./Constructor/Employeedata"
 import Singlepage from "./Routing/Singlepage"
 import Routing from "./Routing/Routing"
+import Printingdata from "./State/Printingdata"
+import Registration from "./component/Registartion"
 
 
 function siddu(){
 
         return <div>
-            <Routing/>
+            <Registration/>
             </div>
 }
 export default siddu

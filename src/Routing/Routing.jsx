@@ -4,16 +4,19 @@ import Home from '../component/Home'
 import About from '../component/About'
 import Services from '../component/Services'
 import Contact from '../component/Contact'
+import Registration from '../component/Registartion'
 class Routing extends Component {
   render() {
     return (
       <div>
         <Router>
             <nav className='navbar navbar-dark bg-dark navbar-expand-lg'>
+
         <Link to="/index" className='navbar-brand'>Logo</Link>
         <div className='ml-auto'>
             <ul className='navbar-nav'>
-                <li><Link to="/index" className='nav-link'>Home</Link></li>
+                <li><Link to="./index" className='nav-link'>Home</Link></li>
+                <li><Link to="/Registartion" className='nav-link'>Registartion</Link></li>
                 <li><Link to="/about" className='nav-link'>About</Link></li>
                 <li><Link to="/services" className='nav-link'>Services</Link></li>
                 <li><Link to="/contact" className='nav-link'>Contact</Link></li>
@@ -21,6 +24,7 @@ class Routing extends Component {
         </div>
             </nav>
             <Switch>
+            <Route path="/Registartion" component={Registration}/>
             <Route path="/index" component={Home}/>
             <Route path="/about" component={About}/>
             <Route path="/services" component={Services}/>
