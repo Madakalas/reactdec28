@@ -14,12 +14,13 @@ import Singlepage from "./Routing/Singlepage"
 import Routing from "./Routing/Routing"
 import Printingdata from "./State/Printingdata"
 import Registration from "./component/Registartion"
+import Product from "./Hook/Product"
 
 
 function siddu(){
 
         return <div>
-            <Registration/>
+            <Product/>
             </div>
 }
 export default siddu
